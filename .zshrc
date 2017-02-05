@@ -106,7 +106,7 @@ alias d="dirs"
 alias tmx="tmux attach -d"
 alias sush="sudo -E -s"
 alias sued="sudoedit"
-alias rr="rm -r"
+alias rr="rm -fr"
 alias zsh-reload=". ~/.zshrc"
 
 pid () {
