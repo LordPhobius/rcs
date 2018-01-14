@@ -12,6 +12,10 @@ alias tk="tc -s -d class show"
 alias tkd="tc -s -d class show dev"
 alias tmx="tmux attach"
 
+tnew() {
+  tmux new-session -As `basename $PWD`
+}
+
 deployrc()
 {
   ssh-copy-id ${1}
